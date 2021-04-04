@@ -188,8 +188,8 @@
         background-color: rgb(255, 255, 255);
         border: 1px solid rgb(204, 204, 204);
         box-shadow: rgb(0 0 0 / 20%) 2px 2px 3px;
-        width: 400px;
-        max-width: 100%;
+        max-width: 400px;
+        width: 100%;
         font-family: Roboto, system-ui, sans-serif;
         flex-shrink: 0;
         height: fit-content;
@@ -210,8 +210,11 @@
 
       @media (max-width: 55rem) {
         .tw {
-          align-items: center;
-          flex-direction: column;
+          display: block;
+          width: 100%;
+        }
+        .tw > * {
+          margin: 0;
         }
       }
     </style>
