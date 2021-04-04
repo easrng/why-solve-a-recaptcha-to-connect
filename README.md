@@ -1,1 +1,0 @@
-# why-solve-a-recaptcha-to-connect
