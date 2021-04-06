@@ -340,6 +340,18 @@
             </li>
             <li>
               <p>
+                <strong>Honeypots</strong><br />
+                To implement this, just add an extra field to the form, hide it CSS, and discard responses with it filled to stop spambots that automatically fill forms. Make sure to hide it from a11y tools to avoid blocking users of assistive technology.
+              </p>
+            </li>
+            <li>
+              <p>
+                <strong>Spam Filters</strong><br />
+                With this approach, don't protect the form. Instead, send the responses through something like <a href="https://akismet.com/">Akismet</a> or <a href="https://www.oopspam.com/">OOPSpam</a> and block spam responses.
+              </p>
+            </li>
+            <li>
+              <p>
                 <strong>Cryptominers</strong><br />
                 This kind of challenge will
                 use the user's computer to mine some amount of cryptocurrency
